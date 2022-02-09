@@ -9,6 +9,8 @@ You may assume that you have an infinite number of each kind of coin.
 
 // DP & min logic
 // Use helper to "not interfere with recursion"
+// https://vimeo.com/675580656/1ad29ada73
+
 const coinChange = (coins, amount) => {
   const res = _minChange(coins, amount);
   if (res === Infinity) {
