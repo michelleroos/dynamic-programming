@@ -25,6 +25,11 @@ const fib = (n, memo = {}) => {
   return memo[n];
 }
 
+/*
+Runtime: 79 ms, faster than 70.24% of JavaScript online submissions for Fibonacci Number.
+Memory Usage: 42 MB, less than 12.84% of JavaScript online submissions for Fibonacci Number.
+*/
+
 console.log(fib(0)); 
 // -> 0
 
