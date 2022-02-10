@@ -22,16 +22,16 @@ const overlapSubsequence = (str1, str2, i = 0, j = 0, memo = {}) => {
   return memo[key]
 };
 
-console.log(overlapSubsequence("dogs", "daogt");
+console.log(overlapSubsequence("dogs", "daogt"));
  // -> 3
 
-console.log(overlapSubsequence("xcyats", "criaotsi");
+console.log(overlapSubsequence("xcyats", "criaotsi"));
  // -> 4
 
-console.log(overlapSubsequence("xfeqortsver", "feeeuavoeqr");
+console.log(overlapSubsequence("xfeqortsver", "feeeuavoeqr"));
  // -> 5
 
-console.log(overlapSubsequence("kinfolklivemustache", "bespokekinfolksnackwave");
+console.log(overlapSubsequence("kinfolklivemustache", "bespokekinfolksnackwave"));
  // -> 11
 
 console.log(overlapSubsequence(
